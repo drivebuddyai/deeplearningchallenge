@@ -43,7 +43,13 @@ Bellow is the format for predicted.pickle file which will then be used for calcu
 
 ```
 [
-    [image_name, class_id , class_name , confidence , [x1 , y1 , x2 , y2]]
+    [image_name,
+            [ 
+                [class_id , class_name , confidence , [x1 , y1 , x2 , y2]
+                [class_id , class_name , confidence , [x1 , y1 , x2 , y2]
+                ....
+            ]
+     ]
     ...
 ]
 ```
