@@ -54,7 +54,11 @@ device:~/Desktop/darknet$ ./darknet detector test aitask/aitask.data cfg/yolov3-
 - Better Deep Learning models can be used provided one have better hardware.
 - Some synthetic data can be creating by performing image operations like rotation, scaling, mirroring etc. also correspondingly the co-ordinates.
 
-----
+# Inference Result:
+- Higher number of epochs and better computing device is required for getting any relevant result.
+
+---
+
 # DBAI DL Challenge
 
 #### <u>Welcome to DBAI challenge</u>
