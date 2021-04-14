@@ -48,7 +48,7 @@ device:~/Desktop/darknet$ ./darknet detector test aitask/aitask.data cfg/yolov3-
 - compute_AP.py, this file uses midpoint co-ordinate system to evaluate, while the co-ordinates provided for training in the data/train/gt.pickle are of corners co-ordinates.
 - compute_AP.py, earlier the default value for number of classes was wrong (i.e. 91), corrected to 10.
 
-# Observation:
+# Observations:
 - Largers number of epochs are required.
 - Better Deep Learning models can be used provided one have better hardware.
 - Better hardware configuration are needed for faster training.
