@@ -55,7 +55,7 @@ device:~/Desktop/darknet$ ./darknet detector test aitask/aitask.data cfg/yolov3-
 - Some synthetic data can be creating by performing image operations like rotation, scaling, mirroring etc. also correspondingly the co-ordinates.
 
 # Inference Result:
-- Higher number of epochs and better computing device is required for getting any relevant result.
+- Higher number of epochs and better computing device is required for getting any relevant result on testing data.
 
 ---
 
