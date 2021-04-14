@@ -81,7 +81,7 @@ sparrow@sparrow-bot:~/Desktop/darknet$ ./darknet detector test aitask/aitask.dat
 - compute_AP.py, earlier the default value for number of classes was wrong (i.e. 91), corrected to 10.
 
 # Observations:
-- Largers number of epochs are required.
+- Larger number of epochs are required for training.
 - Better hardware configuration are needed for faster training.
 - Better Deep Learning models can be used provided one have better hardware.
 - Some synthetic data can be creating by performing image operations like rotation, scaling, mirroring etc. also correspondingly the co-ordinates.
