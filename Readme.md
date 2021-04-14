@@ -7,7 +7,7 @@
   -  Decay: 0.0005
   -  Used transfer learning to used previously trained weights of darknet53.conv.74 
 - Training Logs: train_log.txt
-- Model weights after 550: []  
+- Model weights after 550: [backup/yolov3-tiny_550.weights]() 
 
 ### Directory architecture
 ```
