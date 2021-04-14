@@ -2,6 +2,7 @@
 - Model Used: Tiny-YOLOv3 (Selected because of the available system configuration)
 - Framework: Darknet
 - Hyper parameter and setting used for training:
+  -  Training on: CPU (As available system does not contain GPUs for training)
   -  Learning Rate: 0.001
   -  Momentum: 0.9
   -  Decay: 0.0005
@@ -49,6 +50,7 @@ device:~/Desktop/darknet$ ./darknet detector test aitask/aitask.data cfg/yolov3-
 
 # Observation:
 - Largers number of epochs are required.
+- Better Deep Learning models can be used provided one have better hardware.
 - Better hardware configuration are needed for faster training.
 - Some synthetic data can be creating by performing image operations like rotation, scaling, mirroring etc. also correspondingly the co-ordinates.
 
