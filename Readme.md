@@ -1,5 +1,5 @@
-## SOLUTION (DBAI DL Challenge)
-- Model Used: Tiny-YOLOv3
+## SOLUTION: DBAI DL Challenge
+- Model Used: Tiny-YOLOv3 (Selected because of the available system configuration)
 - Framework: Darknet
 - Hyper parameter and setting used for training:
   -  Learning Rate: 0.001
@@ -8,6 +8,12 @@
   -  Used transfer learning to used previously trained weights of darknet53.conv.74 
 - Training Logs: train_log.txt
 - Model weights after 550: [backup/yolov3-tiny_550.weights](https://drive.google.com/file/d/1pjI6QFcXpxjatNyCQIL5rNr1MJ8fcseF/view?usp=sharing) 
+
+#### System Configuration For Training:
+- Operating System: Ubuntu 20.04.2 LTS
+- RAM: 7.6 GiB
+- Processor: Intel® Core™ i5-7200U CPU @ 2.50GHz × 4 
+- Graphics: AMD® Hainan / Mesa Intel® HD Graphics 620 (KBL GT2)
 
 ### Directory architecture
 ```
@@ -37,6 +43,16 @@ device:~/Desktop/darknet$ ./darknet detector train aitask/aitask.data cfg/yolov3
 device:~/Desktop/darknet$ ./darknet detector test aitask/aitask.data cfg/yolov3-tiny.cfg backup/yolov3-tiny_550.weights test_data/video_rms_2020-10-31_16-*.jpg -thresh 0.04
 ```
 
+# Corrections:
+- compute_AP.py, this file uses midpoint co-ordinate system to evaluate, while the co-ordinates provided for training in the data/train/gt.pickle are of corners co-ordinate.
+- compute_AP.py, earlier the default value for number of classes was wrong (i.e. 91), corrected to 10.
+
+# Observation:
+- Largers number of epochs are required.
+- Better hardware configuration are needed for faster training.
+- Some synthetic data can be creating by performing image operations like rotation, scaling, mirroring etc. also correspondingly the co-ordinates.
+
+----
 # DBAI DL Challenge
 
 #### <u>Welcome to DBAI challenge</u>
