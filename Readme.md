@@ -50,8 +50,8 @@ device:~/Desktop/darknet$ ./darknet detector test aitask/aitask.data cfg/yolov3-
 
 # Observations:
 - Largers number of epochs are required.
-- Better Deep Learning models can be used provided one have better hardware.
 - Better hardware configuration are needed for faster training.
+- Better Deep Learning models can be used provided one have better hardware.
 - Some synthetic data can be creating by performing image operations like rotation, scaling, mirroring etc. also correspondingly the co-ordinates.
 
 ----
