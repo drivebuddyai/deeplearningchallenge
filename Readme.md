@@ -36,12 +36,12 @@
 ```     
 ### Training:
 ```
-device:~/Desktop/darknet$ ./darknet detector train aitask/aitask.data cfg/yolov3-tiny.cfg darknet53.conv.74
+sparrow@sparrow-bot:~/Desktop/darknet$ ./darknet detector train aitask/aitask.data cfg/yolov3-tiny.cfg darknet53.conv.74
 ```
 
 ### Inference
 ```
-device:~/Desktop/darknet$ ./darknet detector test aitask/aitask.data cfg/yolov3-tiny.cfg backup/yolov3-tiny_550.weights test_data/video_rms_2020-10-31_16-*.jpg -thresh 0.04
+sparrow@sparrow-bot:~/Desktop/darknet$ ./darknet detector test aitask/aitask.data cfg/yolov3-tiny.cfg backup/yolov3-tiny_550.weights test_data/video_rms_2020-10-31_16-*.jpg -thresh 0.04
 ```
 
 # Corrections:
