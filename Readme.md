@@ -1,4 +1,4 @@
-# SOLUTION
+## SOLUTION (DBAI DL Challenge)
 - Model Used: Tiny-YOLOv3
 - Framework: Darknet
 - Hyper parameter and setting used for training:
