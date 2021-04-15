@@ -79,6 +79,7 @@ sparrow@sparrow-bot:~/Desktop/darknet$ ./darknet detector test aitask/aitask.dat
 # Corrections:
 - compute_AP.py, this file uses midpoint co-ordinate system to evaluate, while the co-ordinates provided for training in the data/train/gt.pickle are of corners co-ordinates.
 - compute_AP.py, earlier the default value for number of classes was wrong (i.e. 91), corrected to 10.
+- Some images in the training dataset were of 0Kb size.(removed them)
 
 # Observations:
 - Larger number of epochs are required for training.
