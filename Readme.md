@@ -32,10 +32,10 @@
      |     |-a.txt (file containing class and co-ordinate details in YOLO-style)
      |     
      |- darknet53.conv.74
-     |-test_data (directory containing images for testing)
-     |-cfg/yolov3-tiny.cfg (use the file provided in this repository, it is customized for 10 classes.)
-     |-backup/ (this directory will contain the saved model-weights after few epochs)
-     |-examples/detector.c (change the number of epochs after which the weights will get saved.)
+     |- test_data (directory containing images for testing)
+     |- cfg/yolov3-tiny.cfg (use the file provided in this repository, it is customized for 10 classes.)
+     |- backup/ (this directory will contain the saved model-weights after few epochs)
+     |- examples/detector.c (change the number of epochs after which the weights will get saved.)
      
 ```     
 
