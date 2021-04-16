@@ -22,13 +22,15 @@
 ```
 - darknet
      |- aitask
-          |- aitask.data
-          |- classes.names
-          |- train.txt (*.jpg files path for training)
-          |- test.txt  (*.jpg files path for testing)
+     |     |- aitask.data
+     |     |- classes.names
+     |     |- train.txt (*.jpg files path for training)
+     |     |- test.txt  (*.jpg files path for testing)
+     |     
      |- dataset
      |     |-a.jpg (for sample file a.jpg)
      |     |-a.txt (file containing class and co-ordinate details in YOLO-style)
+     |     
      |- darknet53.conv.74
      |-test_data (directory containing images for testing)
      |-cfg/yolov3-tiny.cfg (use the file provided in this repository, it is customized for 10 classes.)
