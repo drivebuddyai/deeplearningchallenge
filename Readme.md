@@ -1,6 +1,6 @@
 ## SOLUTION: DBAI DL Challenge
 - Model Used: Tiny-YOLOv3 (Selected because of the available system configuration)
-- Framework: Darknet
+- Framework: [Darknet](https://pjreddie.com/darknet/)
 - Hyper parameter and setting used for training:
   -  Training on: CPU (As available system does not contain GPUs for training)
   -  Learning Rate: 0.001
