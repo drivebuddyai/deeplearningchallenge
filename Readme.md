@@ -57,6 +57,11 @@ Bellow is the format for predicted.pickle file which will then be used for calcu
 ### Deliverable
 Send us the following details at [hr@drivebuddyai.co](hr@drivebuddyai.co)
 - Predicted pickle file for given test dataset
+- Inference in 10 random samples from training data
+- Inference in 10 random samples from test data
+- Code file or project (training and inference code)
+- Training log
+
 - Document containing details of
   - Model used
   - Hyper parameter and setting used for training
