@@ -25,7 +25,7 @@ classes = ['animal', 'autorickshaw', 'bicycle', 'bus', 'car', 'motorbike', 'pers
 
 
 def mean_average_precision(
-        pred_boxes, true_boxes, iou_threshold=0.5, box_format="midpoint", num_classes=91
+        pred_boxes, true_boxes, iou_threshold=0.5, box_format="midpoint", num_classes=10
 ):
     """
     Calculates mean average precision
